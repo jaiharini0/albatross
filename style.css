@@ -55,7 +55,7 @@ h2{
   background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
   border-radius: 18px;
   border: 1px solid rgba(10, 31, 68, 0.15); /* subtle navy border */
-  height: 100%;
+  /* height: 100%; */
   padding: 28px;
   box-shadow: 0 8px 25px rgba(10, 31, 68, 0.08);
   transition: 

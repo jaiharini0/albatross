@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- ================= SEO META TAGS ================= -->
+  <title>General Insurance Plans | Motor, Home, Travel & Asset Protection</title>
+  <meta name="description" content="Compare best general insurance plans in India including motor, home, travel and commercial insurance with hassle-free claims support.">
+  <meta name="keywords" content="General Insurance, Motor Insurance, Car Insurance, Bike Insurance, Travel Insurance, Home Insurance, Asset Protection">
+  <meta property="og:title" content="General Insurance – Protect What Matters Most">
+  <meta property="og:description" content="Secure your vehicle, property, travel and business risks with trusted general insurance solutions.">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="author" content="The Albatross Associates">
+
+  <meta property="og:type" content="website">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+  <link rel="stylesheet" href="./general.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="sticky-top bg-white shadow-sm">
+  <div class="container-fluid d-flex align-items-center py-3">
+
+    <!-- Logo -->
+    <a href="/index.html">
+      <img src="/images/AlbatrossLogo.svg" class="img-fluid" style="max-height: 80px;" alt="Albatross Logo">
+    </a>
+
+    <!-- Desktop Contact & Nav -->
+    <div class="d-none d-md-flex align-items-center ms-4 flex-grow-1 justify-content-between">
+      <!-- Contact Info -->
+      <div class="d-flex align-items-center">
+        <i class="fas fa-phone me-2"></i> <span>(+91) 8110000313</span>
+        <i class="fas fa-envelope ms-4 me-2"></i> <span>happybanking@thealbatrossassociates.com</span>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="d-flex align-items-center">
+        <a href="/index.html" class="mx-3">Home</a>
+        <a href="/about.html" class="mx-3">About Us</a>
+
+        <!-- Loans Dropdown -->
+        <div class="nav-dropdown mx-3">
+          <a href="#loans">Loans</a>
+          <div class="nav-dropdown-menu">
+            <a href="/homeLoan/homeLoan.html"><i class="fas fa-home me-2"></i>Home Loan</a>
+            <a href="/personalLoan/personalLoan.html"><i class="fas fa-user me-2"></i>Personal Loan</a>
+            <a href="/businessLoan/businessLoan.html"><i class="fas fa-briefcase me-2"></i>Business Loan</a>
+            <a href="/mortgage/mortgage.html"><i class="fas fa-building me-2"></i>Loan Against Property</a>
+          </div>
+        </div>
+
+        <!-- Insurance Dropdown -->
+        <div class="nav-dropdown mx-3">
+          <a href="#insurance">Insurance</a>
+          <div class="nav-dropdown-menu">
+            <a href="/lifeInsurance/life.html"><i class="fas fa-heartbeat me-2"></i>Life Insurance</a>
+            <a href="/healthInsurance/health.html"><i class="fas fa-notes-medical me-2"></i>Health Insurance</a>
+            <a href="./general.html"><i class="fas fa-shield-alt me-2"></i>General Insurance</a>
+          </div>
+        </div>
+
+        <a href="/why.html" class="mx-3">Why Choose Us</a>
+        <a href="/blog.html" class="mx-3">Blog</a>
+        <a href="#contact" class="mx-3">Contact Us</a>
+      </nav>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button class="navbar-toggler d-md-none ms-auto border-0 bg-transparent" type="button" id="mobileMenuBtn">
+      <i class="fas fa-bars fa-2x"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Nav Overlay -->
+  <div id="mobileNav" class="mobile-nav d-md-none">
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About Us</a>
+    <div class="mobile-dropdown">
+    <a href="javascript:void(0)" class="mobile-dropdown-btn">Loans <i class="fas fa-chevron-down ms-1"></i></a>
+    <div class="mobile-dropdown-menu">
+      <a href="/homeLoan/homeLoan.html"><i class="fas fa-home me-2"></i>Home Loan</a>
+      <a href="/personalLoan/personalLoan.html"><i class="fas fa-user me-2"></i>Personal Loan</a>
+      <a href="/businessLoan/businessLoan.html"><i class="fas fa-briefcase me-2"></i>Business Loan</a>
+      <a href="/mortgage/mortgage.html"><i class="fas fa-building me-2"></i>Loan Against Property</a>
+    </div>
+  </div>
+
+  <!-- Insurance Mobile Dropdown -->
+  <div class="mobile-dropdown">
+    <a href="javascript:void(0)" class="mobile-dropdown-btn">Insurance <i class="fas fa-chevron-down ms-1"></i></a>
+    <div class="mobile-dropdown-menu">
+      <a href="/insurance/lifeInsurance/life.html"><i class="fas fa-heartbeat me-2"></i>Life Insurance</a>
+      <a href="/insurance/healthInsurance/health.html"><i class="fas fa-notes-medical me-2"></i>Health Insurance</a>
+      <a href="/insurance/generalInsurance/general.html"><i class="fas fa-shield-alt me-2"></i>General Insurance</a>
+    </div>
+  </div>
+    <a href="/why.html">Why Choose Us</a>
+    <a href="/blog.html">Blog</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+</header>
+
+<!-- Hero Section Carousel -->
+<section class="hero-carousel reveal">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- INDICATORS / DOTS -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-bg">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="carousel-content text-white">
+                  <h1>Protect Your Assets & Everyday Risks</h1>
+                  <p>Motor, Home, Travel & Commercial Insurance Solutions</p>
+                  <a href="#quote" class="btn btn-primary me-2">Get General Insurance Quote</a>
+                </div>
+              </div>
+
+              <div class="col-md-6 text-center">
+                <img src="/images/g1.gif" class="img-fluid" alt="Home Loan" style="height: 400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-bg">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="carousel-content text-white">
+                    <h1>Comprehensive Protection for Life’s Uncertainties</h1>
+                    <p>One-stop solution for vehicle, property & travel insurance</p>
+                    <a href="#general-plans" class="btn btn-primary me-2">Explore Insurance Plans</a>
+                </div>
+              </div>
+
+              <div class="col-md-6 text-center">
+                <img src="/images/g2.gif" class="img-fluid" alt="Dream Home" style="height: 500px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-gap life-types bg-light reveal">
+  <div class="container">
+    <h2 class="text-center mb-2">Types of General Insurance</h2>
+    <p class="text-center mb-3"><i>Protection for assets, travel, and liabilities</i></p>
+    <div class="section-underline"></div>
+
+    <div class="row g-4 mt-4">
+      <!-- Motor Insurance -->
+        <div class="col-md-4">
+        <div class="type-card">
+            <i class="fas fa-car"></i>
+            <h5>Motor Insurance</h5>
+            <p>Covers cars and two-wheelers against accidents, theft, and third-party liabilities.</p>
+        </div>
+        </div>
+
+        <!-- Home Insurance -->
+        <div class="col-md-4">
+        <div class="type-card">
+            <i class="fas fa-home"></i>
+            <h5>Home Insurance</h5>
+            <p>Protects your home and belongings from fire, theft, natural disasters and damage.</p>
+        </div>
+        </div>
+
+        <!-- Travel Insurance -->
+        <div class="col-md-4">
+        <div class="type-card">
+            <i class="fas fa-plane"></i>
+            <h5>Travel Insurance</h5>
+            <p>Covers medical emergencies, trip cancellations, baggage loss and delays.</p>
+        </div>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section-gap insurance-importance reveal">
+  <div class="container">
+    <h2 class="text-center mb-2">Importance of General Insurance</h2>
+<p class="text-center mb-3"><i>Why protecting assets and risks is essential</i></p>
+    <div class="section-underline"></div>
+
+    <div class="row g-4 mt-4">
+      <div class="col-md-4">
+        <div class="importance-card">
+          <i class="fas fa-shield"></i>
+          <h5>Financial Protection</h5>
+          <p>Covers unexpected losses due to accidents.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="importance-card">
+          <i class="fas fa-car-crash"></i>
+          <h5>Accident Coverage</h5>
+          <p>Reduces repair and liability expensesok.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="importance-card">
+          <i class="fas fa-home"></i>
+          <h5>Asset Security</h5>
+          <p>Safeguards property and valuables.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="importance-card">
+          <i class="fas fa-plane"></i>
+          <h5>Travel Safety</h5>
+          <p>Ensures worry-free domestic & international travel.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="importance-card">
+          <i class="fas fa-business-time"></i>
+          <h5>Business Continuity</h5>
+          <p>Protects businesses from operational risks.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="importance-card">
+          <i class="fas fa-balance-scale"></i>
+          <h5>Legal Compliance</h5>
+          <p>Mandatory for vehicles and some businesses.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="quoteForm" class="section-gap bg-light reveal">
+  <div class="container">
+
+    <h2 class="text-center mb-2">Get Your General Insurance Quote</h2>
+<p class="text-center mb-3 section-subtitle">
+Compare motor, home & travel insurance plans instantly
+</p>
+
+
+    <div class="section-underline"></div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-7 col-lg-6">
+
+        <form class="quote-form card shadow-lg p-4 p-md-5">
+
+          <h5 class="text-center mb-4">Tell us a few details</h5>
+
+          <!-- Name -->
+          <div class="form-group mb-3">
+            <label>Full Name</label>
+            <input type="text" class="form-control" name="fullName" placeholder="Enter your full name" required>
+          </div>
+
+          <!-- Age -->
+          <div class="form-group mb-3">
+            <label>Age</label>
+            <input type="number" class="form-control" name="age" placeholder="Your age" min="18" max="65" required>
+          </div>
+
+          <!-- Email -->
+          <div class="form-group mb-3">
+            <label>Email</label>
+            <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+          </div>
+
+          <!-- Income -->
+          <div class="form-group mb-3">
+            <label>Monthly Income (₹)</label>
+            <input type="number" class="form-control" name="monthlyIncome" placeholder="Eg: 50,000" required>
+          </div>
+
+          <!-- Mobile -->
+          <div class="form-group mb-3">
+            <label>Mobile Number</label>
+            <input type="tel" class="form-control" name="mobile" placeholder="10-digit mobile number" required>
+          </div>
+
+          <!-- Plan -->
+          <div class="form-group mb-4">
+            <label>Preferred Plan Type</label>
+            <select class="form-select" name="planType" required>
+              <option value="" disabled selected>Select Insurance Type</option>
+                <option value="Car Insurance">Car Insurance</option>
+                <option value="Bike Insurance">Bike Insurance</option>
+                <option value="Travel Insurance">Travel Insurance</option>
+            </select>
+          </div>
+
+          <!-- CTA -->
+          <button type="submit" class="btn btn-primary w-100 btn-lg">
+            Get Free Quote
+          </button>
+
+          <p class="text-center mt-3 small text-muted">
+            Your information is safe & confidential
+          </p>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-gap life-insurance-process reveal">
+  <div class="container">
+    <h2 class="section-title">How General Insurance Works</h2>
+    <p class="section-subtitle mb-2">
+      <i>From policy purchase to hassle-free claim settlement</i>
+    </p>
+
+    <div class="section-underline"></div>
+
+    <div class="timeline-wrapper">
+      <div class="timeline-line"><span class="timeline-progress"></span></div>
+
+      <div class="timeline-steps">
+
+        <!-- Step 1 -->
+        <div class="timeline-step">
+          <div class="step-circle">01</div>
+          <h6>Select Insurance Type</h6>
+          <p>Choose motor, home, travel, or commercial insurance based on your needs.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="timeline-step">
+          <div class="step-circle">02</div>
+          <h6>Choose Coverage & Add-ons</h6>
+          <p>Select sum insured, policy duration, and optional add-on covers.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="timeline-step">
+          <div class="step-circle">03</div>
+          <h6>Policy Issuance</h6>
+          <p>Complete documentation and receive your insurance policy instantly.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="timeline-step">
+          <div class="step-circle">04</div>
+          <h6>Incident or Loss</h6>
+          <p>In case of accident, damage, theft, or loss, inform the insurer immediately.</p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="timeline-step">
+          <div class="step-circle">05</div>
+          <h6>Claim Settlement</h6>
+          <p>Survey, verification, and settlement through repair or financial reimbursement.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-gap benefits reveal bg-light">
+  <div class="container">
+    <h2 class="text-center mb-2">General Insurance Benefits & Coverage</h2>
+    <p class="text-center mb-3"><i>Comprehensive protection for assets, travel & liabilities</i></p>
+    <div class="section-underline"></div>
+
+    <div class="row g-4 mt-4">
+
+      <!-- Accident & Damage -->
+      <div class="col-md-4">
+        <div class="benefit-card">
+          <i class="fas fa-car-crash"></i>
+          <h5>Accident & Damage Cover</h5>
+          <p>Covers loss or damage to vehicles, property, or insured assets due to accidents.</p>
+        </div>
+      </div>
+
+      <!-- Theft & Loss -->
+      <div class="col-md-4">
+        <div class="benefit-card">
+          <i class="fas fa-lock"></i>
+          <h5>Theft & Loss Protection</h5>
+          <p>Financial protection against theft, burglary, and total loss of insured assets.</p>
+        </div>
+      </div>
+
+      <!-- Liability -->
+      <div class="col-md-4">
+        <div class="benefit-card">
+          <i class="fas fa-balance-scale"></i>
+          <h5>Third-Party Liability</h5>
+          <p>Covers legal liabilities arising from injury, death, or property damage to others.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-gap eligibility-docs reveal">
+  <div class="container">
+    
+    <h2 class="text-center mb-3">General Insurance Eligibility & Documentation</h2>
+    <p class="text-center mb-2">
+      <i>Simple eligibility criteria for asset and risk protection</i>
+    </p>
+    <div class="section-underline"></div>
+
+    <!-- Toggle Buttons -->
+    <div class="toggle-wrapper">
+      <button class="toggle-btn active" data-target="eligibility">
+        Eligibility
+      </button>
+      <button class="toggle-btn" data-target="documentation">
+        Documentation
+      </button>
+    </div>
+
+    <!-- Content Box -->
+    <div class="toggle-content">
+
+      <!-- Eligibility -->
+      <div class="content-box show fade-in" id="eligibility">
+        <ul class="info-list">
+          <li>
+            <strong>Applicant Type:</strong>
+            Individuals, vehicle owners, property owners, business owners, and travelers
+          </li>
+          <li>
+            <strong>Age Requirement:</strong>
+            18 years and above (age limits may apply for specific policies like motor or travel)
+          </li>
+          <li>
+            <strong>Insurable Interest:</strong>
+            Applicant must have legal ownership or financial interest in the insured asset
+          </li>
+          <li>
+            <strong>Risk Profile:</strong>
+            Based on asset type, usage, location, and risk exposure
+          </li>
+          <li>
+            <strong>Policy Type:</strong>
+            Motor, Home, Travel, Commercial, or Personal Accident insurance
+          </li>
+          <li>
+            <strong>Sum Insured:</strong>
+            Determined by asset value, coverage selected, and insurer guidelines
+          </li>
+        </ul>
+      </div>
+
+      <!-- Documentation -->
+      <div class="content-box" id="documentation">
+        <ul class="info-list">
+          <li>Proof of Identity (Aadhaar / PAN / Passport)</li>
+          <li>Proof of Address</li>
+          <li>Asset Documents (RC book, Property papers, Invoice, or Travel details)</li>
+          <li>Policy Proposal Form (filled and signed)</li>
+          <li>Previous Policy Copy (for renewals, if applicable)</li>
+          <li>Photographs of Asset / Vehicle (if required)</li>
+        </ul>
+
+        <p class="note">
+          Our advisors assist with documentation, valuation, and insurer coordination for smooth policy issuance.
+        </p>
+
+        <a href="#contact" class="btn btn-outline" style="border:1px solid #0a1f44;background-color:#0a1f44;color:#fff;">
+          Speak to a General Insurance Advisor
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-gap claim-process reveal bg-light">
+  <div class="container">
+    <h2 class="text-center mb-2">General Insurance Claim Process</h2>
+    <p class="text-center mb-1">
+      <i>Quick, transparent claims with expert assistance</i>
+    </p>
+    <div class="section-underline"></div>
+
+    <div class="row mt-4 text-center claim-steps">
+
+      <div class="col-md-3 step">
+        <span>01</span>
+        <h6>Incident Intimation</h6>
+        <p>
+          Inform the insurer immediately after accident, damage, theft, or loss.
+        </p>
+      </div>
+
+      <div class="col-md-3 step">
+        <span>02</span>
+        <h6>Claim Registration</h6>
+        <p>
+          Register claim online or through our advisors and receive claim reference number.
+        </p>
+      </div>
+
+      <div class="col-md-3 step">
+        <span>03</span>
+        <h6>Survey & Verification</h6>
+        <p>
+          Surveyor inspects the asset and verifies documents and damage details.
+        </p>
+      </div>
+
+      <div class="col-md-3 step">
+        <span>04</span>
+        <h6>Repair or Settlement</h6>
+        <p>
+          Asset repaired at network provider or claim amount reimbursed as per policy terms.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-gap insurance-plans reveal" id="general-plans">
+  <div class="container">
+    <h2 class="text-center mb-2">General Insurance Plans</h2>
+    <p class="text-center mb-3">
+      <i>Protect your health, vehicle, home, and assets under one umbrella</i>
+    </p>
+    <div class="section-underline"></div>
+
+    <div class="row g-4 mt-4">
+
+      <!-- Health Insurance -->
+      <div class="col-md-4">
+        <div class="plan-card">
+          <h5>Health Insurance</h5>
+          <p class="plan-desc">
+            Covers medical expenses and hospitalization costs.
+          </p>
+          <ul>
+            <li>Cashless & reimbursement claims</li>
+            <li>Pre & post hospitalization</li>
+            <li>Critical illness cover</li>
+          </ul>
+          <a href="#quoteForm" class="btn btn-primary w-100">Get Health Quote</a>
+        </div>
+      </div>
+
+      <!-- Motor Insurance -->
+      <div class="col-md-4">
+        <div class="plan-card highlight">
+          <h5>Motor Insurance</h5>
+          <p class="plan-desc">
+            Financial protection for your car or two-wheeler.
+          </p>
+          <ul>
+            <li>Own damage & third-party cover</li>
+            <li>Accident protection</li>
+            <li>Mandatory by law</li>
+          </ul>
+          <a href="#quoteForm" class="btn btn-primary w-100">Compare Motor Plans</a>
+        </div>
+      </div>
+
+      <!-- Property Insurance -->
+      <div class="col-md-4">
+        <div class="plan-card">
+          <h5>Property & Asset Insurance</h5>
+          <p class="plan-desc">
+            Safeguard your home, shop, or business assets.
+          </p>
+          <ul>
+            <li>Fire & natural calamity cover</li>
+            <li>Theft & burglary protection</li>
+            <li>Business interruption cover</li>
+          </ul>
+          <a href="#quoteForm" class="btn btn-primary w-100">Protect Your Assets</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-gap reveal bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">General Insurance FAQs</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+            What is covered under general insurance?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            General insurance covers non-life risks such as health expenses, vehicle damage,
+            property loss, travel emergencies, and asset protection.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+            Is motor insurance compulsory?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Yes. Third-party motor insurance is mandatory in India under the Motor Vehicles Act.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+            Can I buy multiple general insurance policies?
+          </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Yes. You can hold separate policies for health, motor, home, and travel insurance
+            based on your needs.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+            How are general insurance claims settled?
+          </button>
+        </h2>
+        <div id="faq4" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Claims can be settled either on a cashless basis (network providers) or through
+            reimbursement after document verification.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-section section-gap reveal">
+  <div class="container">
+    <h2 style="color:#FFDF00;">Protect What Matters Most</h2>
+    <p>Get expert guidance on health, motor, and asset insurance solutions</p>
+    <a href="#quoteForm" class="btn btn-light btn-lg">Get Free General Insurance Quote</a>
+  </div>
+</section>
+
+
+<!-- Contact Section --> 
+<section id="contact" class="section-gap bg-light reveal">
+  <div class="container">
+    <h2 class="text-center mb-3" style="color: #0a1f44;">Contact Us</h2>
+    <h5 style="text-align: center;"><i>Connect with Trusted Financial Advisors</i></h5>
+    <div class="section-underline"></div>
+    <div class="row g-4 reveal">
+      
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <form id="contactForm">
+          
+          <!-- Name -->
+          <div class="mb-3">
+            <input type="text" class="form-control contact-input" name="name" placeholder="Name" required>
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3">
+            <input type="email" class="form-control contact-input" name="email" placeholder="Email" required>
+          </div>
+
+          <!-- Contact Number -->
+          <div class="mb-3">
+            <input type="tel" class="form-control contact-input" name="phone" placeholder="Contact Number" required pattern="[0-9]{10}" title="Enter 10-digit number">
+          </div>
+
+          <!-- Services Dropdown -->
+          <div class="mb-3">
+            <select class="form-select contact-input" name="service" required>
+              <option value="" disabled selected>Select Service</option>
+              <option value="Home Loan">Home Loan</option>
+              <option value="Business Loan">Business Loan</option>
+              <option value="Personal Loan">Personal Loan</option>
+              <option value="Mortgage">Mortgage services</option>
+              <option value="Insurance">Insurance</option>
+              <option value="Investment">Investment Planning</option>
+            </select>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Request a Callback</button>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- Map & Contact Info -->
+      <div class="col-md-6 reveal">
+        <iframe
+          src="https://www.google.com/maps?q=27/300,%201st%20Floor,%20SS%20Complex,%207th%20St%20Extension,%20100%20Feet%20Road,%20Coimbatore,%20Tamil%20Nadu%20641012,%20India&z=16&output=embed"
+          width="100%"
+          height="400"
+          style="border:0; border-radius:12px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p class="mt-3"><i class="fas fa-map-marker-alt me-2"></i>27/300, 1st Floor, SS Complex, 7th St Extension, 100 feet Road, Coimbatore, Tamil Nadu 641012, India</p>
+        <p><i class="fas fa-phone me-2"></i>+91  422 314 6393</p>
+        <p><i class="fas fa-mobile me-2"></i>+91  8110000313</p>
+        <p><i class="fas fa-envelope me-2"></i>happybanking@thealbatrossassociates.com</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="bank-footer reveal">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Brand -->
+      <div class="col-md-4">
+        <img src="/images/AlbatrossLogoCopy.PNG" alt="The Albatross Associates" class="footer-logo">
+        <h2 style="color: white;">THE ALBATROSS ASSOCIATES</h2>
+        <p class="footer-tagline">
+          Your trusted partner for transparent, reliable<br>
+          and customer-first financial solutions.
+        </p>
+
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://api.whatsapp.com/message/4DWSESFRGLDUC1?autoload=1&app_absent=0" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/thealbatross_associates/?utm_source=qr&igsh=MTNjbDg1MWNscTVjNg%3D%3D#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2">
+        <h6 class="footer-title">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/index.html#loans">Loans</a></li>
+          <li><a href="/index.html#insurance">Insurance</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-3">
+        <h6 class="footer-title">Our Services</h6>
+        <ul class="footer-links">
+          <li><a href="/homeLoan/homeLoan.html">Home Loans</a></li>
+          <li><a href="/personalLoan/personalLoan.html">Personal Loans</a></li>
+          <li><a href="/businessLoan/businessLoan.html">Business Loans</a></li>
+          <li><a href="/mortgage/mortgage.html">Loan Against Property</a></li>
+          <li><a href="/index.html#insurance">Insurance Solutions</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact + Opening Hours -->
+      <div class="col-md-3">
+        <h6 class="footer-title">Contact Us</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Coimbatore, Tamil Nadu</p>
+        <p><i class="fas fa-phone-alt me-2"></i>+91 422 314 6393</p>
+        <p><i class="fas fa-mobile-alt me-2"></i>+91 81100 00313</p>
+        <p style="font-size: 14px;"><i class="fas fa-envelope me-2"></i>happybanking@thealbatrossassociates.com</p>
+
+        <hr class="footer-divider">
+
+        <h6 class="footer-title mt-3">Opening Hours</h6>
+        <p>Please contact us for any inquiry.</p>
+        <p><strong>Monday – Saturday:</strong> 09:00 AM – 07:00 PM</p>
+        <p><strong>Sunday:</strong> Holiday</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <span>© 2025 The Albatross Associates. All Rights Reserved.</span>
+      <div class="footer-legal">
+        <a href="/privacy.html">Privacy Policy</a>
+        <span class="mx-2">|</span>
+        <a href="/term.html">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./general.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "name": "The Albatross Associates",
+  "url": "https://thealbatrossassociates.com",
+  "logo": "https://thealbatrossassociates.com/images/AlbatrossLogo.svg",
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Tamil Nadu"
+  },
+  "serviceType": "Home Loan Advisory",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "27/300, SS Complex, 100 Feet Road",
+    "addressLocality": "Coimbatore",
+    "addressRegion": "TN",
+    "postalCode": "641012",
+    "addressCountry": "IN"
+  }
+}
+</script>
+
+</body>
+</html>
+
+

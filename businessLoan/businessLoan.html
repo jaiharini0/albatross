@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compare business loans in India with competitive interest rates. Get fast approval, flexible repayment options, and expert guidance from Albatross Associates.">
+  <meta name="keywords" content="business loan, small business loan, business loan eligibility, business loan calculator, SME loan India, working capital loan, unsecured business loan">
+  <link rel="canonical" href="https://www.albatrossassociates.com/business-loan">
+  <title>Business Loan | The Albatross Associates</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="./businessLoan.css"/>
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+
+<!-- Header -->
+<header class="sticky-top bg-white shadow-sm">
+  <div class="container-fluid d-flex align-items-center py-3">
+
+    <!-- Logo -->
+    <a href="/index.html">
+      <img src="/images/AlbatrossLogo.svg" class="img-fluid" style="max-height: 80px;" alt="Albatross Logo">
+    </a>
+
+    <!-- Desktop Contact & Nav -->
+    <div class="d-none d-md-flex align-items-center ms-4 flex-grow-1 justify-content-between">
+      <!-- Contact Info -->
+      <div class="d-flex align-items-center">
+        <i class="fas fa-phone me-2"></i> <span>(+91) 8110000313</span>
+        <i class="fas fa-envelope ms-4 me-2"></i> <span>happybanking@thealbatrossassociates.com</span>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="d-flex align-items-center">
+        <a href="/index.html" class="mx-3">Home</a>
+        <a href="/about.html" class="mx-3">About Us</a>
+
+        <!-- Loans Dropdown -->
+        <div class="nav-dropdown mx-3">
+          <a href="#loans">Loans</a>
+          <div class="nav-dropdown-menu">
+            <a href="/homeLoan/homeLoan.html"><i class="fas fa-home me-2"></i>Home Loan</a>
+            <a href="/personalLoan/personalLoan.html"><i class="fas fa-user me-2"></i>Personal Loan</a>
+            <a href="./businessLoan.html"><i class="fas fa-briefcase me-2"></i>Business Loan</a>
+            <a href="/mortgage/mortgage.html"><i class="fas fa-building me-2"></i>Loan Against Property</a>
+          </div>
+        </div>
+
+        <!-- Insurance Dropdown -->
+        <div class="nav-dropdown mx-3">
+          <a href="#insurance">Insurance</a>
+          <div class="nav-dropdown-menu">
+            <a href="/insurance/lifeInsurance/life.html"><i class="fas fa-heartbeat me-2"></i>Life Insurance</a>
+            <a href="/insurance/healthInsurance/health.html"><i class="fas fa-notes-medical me-2"></i>Health Insurance</a>
+            <a href="/insurance/generalInsurance/general.html"><i class="fas fa-shield-alt me-2"></i>General Insurance</a>
+          </div>
+        </div>
+
+        <a href="/why.html" class="mx-3">Why Choose Us</a>
+        <a href="/blog.html" class="mx-3">Blog</a>
+        <a href="#contact" class="mx-3">Contact Us</a>
+      </nav>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button class="navbar-toggler d-md-none ms-auto border-0 bg-transparent" type="button" id="mobileMenuBtn">
+      <i class="fas fa-bars fa-2x"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Nav Overlay -->
+  <div id="mobileNav" class="mobile-nav d-md-none">
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About Us</a>
+    <div class="mobile-dropdown">
+    <a href="javascript:void(0)" class="mobile-dropdown-btn">Loans <i class="fas fa-chevron-down ms-1"></i></a>
+    <div class="mobile-dropdown-menu">
+      <a href="/homeLoan/homeLoan.html"><i class="fas fa-home me-2"></i>Home Loan</a>
+      <a href="/personalLoan/personalLoan.html"><i class="fas fa-user me-2"></i>Personal Loan</a>
+      <a href="./businessLoan.html"><i class="fas fa-briefcase me-2"></i>Business Loan</a>
+      <a href="/mortgage/mortgage.html"><i class="fas fa-building me-2"></i>Loan Against Property</a>
+    </div>
+  </div>
+
+  <!-- Insurance Mobile Dropdown -->
+  <div class="mobile-dropdown">
+    <a href="javascript:void(0)" class="mobile-dropdown-btn">Insurance <i class="fas fa-chevron-down ms-1"></i></a>
+    <div class="mobile-dropdown-menu">
+      <a href="/insurance/lifeInsurance/life.html"><i class="fas fa-heartbeat me-2"></i>Life Insurance</a>
+      <a href="/insurance/healthInsurance/health.html"><i class="fas fa-notes-medical me-2"></i>Health Insurance</a>
+      <a href="/insurance/generalInsurance/general.html"><i class="fas fa-shield-alt me-2"></i>General Insurance</a>
+    </div>
+  </div>
+    <a href="/why.html">Why Choose Us</a>
+    <a href="/blog.html">Blog</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+</header>
+
+<!-- Hero Section Carousel -->
+<section class="hero-carousel reveal">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- INDICATORS / DOTS -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-bg">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="carousel-content text-white">
+                  <h1>Instant Business Loan Assistance</h1>
+                  <p>Quick approvals with trusted banks – tailored solutions for your business growth</p>
+                  <a href="#business-loan-calculators" class="btn btn-primary me-2">Calculate EMI</a>
+                  <a href="#contact" class="btn btn-outline-primary">Talk to Expert</a>
+                </div>
+              </div>
+
+              <div class="col-md-6 text-center">
+                <img src="/images/b1.gif" class="img-fluid" alt="Home Loan">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-bg">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="carousel-content text-white">
+                  <h1>Business Loans up to ₹2 Crore</h1>
+                  <p>Compare offers from banks & NBFCs and get expert guidance for your business needs</p>
+                  <a href="#business-loan-calculators" class="btn btn-primary me-2">Calculate EMI</a>
+                  <a href="#contact" class="btn btn-outline-primary">Talk to Expert</a>
+                </div>
+              </div>
+
+              <div class="col-md-6 text-center">
+                <img src="/images/b2.gif" class="img-fluid" alt="Dream Home">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-gap features reveal">
+  <div class="container">
+    <h2 class="mb-2 text-center">Why Choose Our Business Loan</h2>
+    <h5 class="text-center"><i>Committed to Growth, Flexibility, and Speed</i></h5>
+    <div class="section-underline"></div>
+    <div class="swiper features-swiper">
+      <div class="swiper-wrapper">
+
+        <!-- Card 1 -->
+        <div class="swiper-slide">
+          <div class="card p-4 text-center feature-card">
+            <i class="fas fa-bolt"></i>
+            <h5 class="mt-3">No Collateral Options</h5>
+            <p>Apply with ease—select from unsecured or minimal collateral loans for your business.</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="swiper-slide">
+          <div class="card p-4 text-center feature-card">
+            <i class="fas fa-lock"></i>
+            <h5 class="mt-3">Expert Business Guidance</h5>
+            <p>Our advisors help you choose the right loan type, amount, and tenure for your business needs.</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="swiper-slide">
+          <div class="card p-4 text-center feature-card">
+            <i class="fas fa-hand-holding-dollar"></i>
+            <h5 class="mt-3">Transparent Bank Comparison</h5>
+            <p>Compare interest rates, repayment options, and processing charges across multiple lenders.</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="swiper-slide">
+          <div class="card p-4 text-center feature-card">
+            <i class="fas fa-chart-line"></i>
+            <h5 class="mt-3">Flexible Loan Amounts & Tenure</h5>
+            <p>Borrow as per your business requirements—from working capital to expansion loans.</p>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="swiper-slide">
+          <div class="card p-4 text-center feature-card">
+            <i class="fas fa-shield-alt"></i>
+            <h5 class="mt-3">Quick Approvals & Disbursal</h5>
+            <p>Get fast loan approval and funds transferred directly to your business account.</p>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="swiper-slide">
+          <div class="card p-4 text-center feature-card">
+            <i class="fas fa-rupee-sign"></i>
+            <h5 class="mt-3">Dedicated Business Support</h5>
+            <p>Our team assists you at every stage, from application to disbursal and repayment guidance.</p>
+          </div>
+        </div>
+
+      </div>     
+    </div>
+     <div style="margin-left: 100px;" class="swiper-button-next"></div>
+     <div style="margin-right: 100px;" class="swiper-button-prev"></div>
+  </div>
+</section>
+
+
+<section class="section-gap loan-types reveal">
+  <div class="container">
+    <h2 class="section-title">Types of Business Loans We Offer</h2>
+    <p class="section-subtitle mb-1">
+      Explore tailored business loan options to support your growth and operational needs.
+    </p>
+    <div class="section-underline"></div>
+
+    <div class="row g-4 mt-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="loan-type-card">
+          <i class="fas fa-briefcase"></i>
+          <h5>Working Capital Loan</h5>
+          <p>Manage daily operational expenses and cash flow with flexible working capital financing.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="loan-type-card">
+          <i class="fas fa-industry"></i>
+          <h5>Business Expansion Loan</h5>
+          <p>Fund your business growth, new branches, or product launches with customized loan solutions.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="loan-type-card">
+          <i class="fas fa-cogs"></i>
+          <h5>Equipment / Machinery Loan</h5>
+          <p>Purchase or upgrade machinery, tools, or technology without straining your capital.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="loan-type-card">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <h5>Invoice Financing / Bill Discounting</h5>
+          <p>Get immediate cash against unpaid invoices to maintain smooth business operations.</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="loan-type-card">
+          <i class="fas fa-hand-holding-usd"></i>
+          <h5>Debt Consolidation Loan</h5>
+          <p>Combine multiple business debts into a single loan for easier management and lower interest.</p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="loan-type-card">
+          <i class="fas fa-rocket"></i>
+          <h5>Startup / New Business Loan</h5>
+          <p>Secure funding for new ventures, product launches, or initial working capital requirements.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Business Loan EMI Calculator Section -->
+<section id="business-loan-calculators" class="section-gap emi-section reveal">
+  <div class="container">
+
+    <h2 class="text-center mb-2">Calculate Your Business Loan Smartly</h2>
+    <p class="text-center mb-4">
+      Estimate your monthly EMI and total repayment amount for your business loan.
+    </p>
+    <div class="section-underline"></div>
+
+    <!-- EMI Calculator -->
+    <div class="calculator active reveal">
+      <p class="text-center mb-4">
+        Adjust the sliders below to calculate your EMI with ease.
+      </p>
+
+      <div class="row justify-content-center">
+
+        <!-- LEFT : SLIDERS -->
+        <div class="col-md-6">
+          <div class="card p-4">
+
+            <!-- Loan Amount -->
+            <div class="mb-4">
+              <label>Loan Amount (₹)</label>
+              <input type="range"
+                     min="100000"
+                     max="20000000"
+                     step="50000"
+                     value="1000000"
+                     id="businessLoanSlider"
+                     class="form-range">
+              <div class="d-flex justify-content-between">
+                <span>₹1 Lakh</span>
+                <span>₹2 Crore</span>
+              </div>
+              <div class="text-end mt-1">
+                ₹ <span id="businessLoanValue">10,00,000</span>
+              </div>
+            </div>
+
+            <!-- Interest Rate -->
+            <div class="mb-4">
+              <label>Interest Rate (% p.a.)</label>
+              <input type="range"
+                     min="8"
+                     max="22"
+                     step="0.01"
+                     value="12"
+                     id="businessRateSlider"
+                     class="form-range">
+              <div class="d-flex justify-content-between">
+                <span>8%</span>
+                <span>22%</span>
+              </div>
+              <div class="text-end mt-1">
+                <span id="businessRateValue">12</span>%
+              </div>
+            </div>
+
+            <!-- Tenure -->
+            <div class="mb-4">
+              <label>Tenure (Years)</label>
+              <input type="range"
+                     min="1"
+                     max="10"
+                     step="1"
+                     value="5"
+                     id="businessTenureSlider"
+                     class="form-range">
+              <div class="d-flex justify-content-between">
+                <span>1</span>
+                <span>10</span>
+              </div>
+              <div class="text-end mt-1">
+                <span id="businessTenureValue">5</span> Years
+              </div>
+            </div>
+
+            <!-- Results -->
+            <div class="result text-center p-3 mt-3 border rounded">
+              <h4>Your EMI: ₹ <span id="businessEmiResult">0</span></h4>
+              <p>Total Payable: ₹ <span id="businessTotalResult">0</span></p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- RIGHT : PIE CHART -->
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+          <canvas id="businessEmiChart" width="250" height="250"></canvas>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Business Loan Interest Rates & Charges Section -->
+<section class="interest-section reveal">
+  <div class="container">
+
+    <h2 class="text-center mb-2">Business Loan Interest Rates & Charges</h2>
+    <p class="text-center section-subtitle mb-1">
+      Transparent business financing information from banks & NBFCs
+    </p>
+    <div class="section-underline"></div>
+
+    <div class="row g-4 mt-4">
+
+      <!-- Interest Rates -->
+      <div class="col-md-6">
+        <div class="highlight-card">
+          <h5><i class="fas fa-percentage me-2"></i>Interest Rates</h5>
+          <ul>
+            <li>Business loan rates vary for <strong>secured and unsecured</strong> products.</li>
+            <li>Rates depend on <strong>business turnover, vintage, profitability, and credit score</strong>.</li>
+            <li>NBFCs may offer faster approvals with flexible criteria.</li>
+            <li>Final rates differ based on risk assessment.</li>
+          </ul>
+          <p class="note">
+            We assist in choosing lenders aligned with your business profile and cash flow.
+          </p>
+        </div>
+      </div>
+
+      <!-- Charges -->
+      <div class="col-md-6">
+        <div class="highlight-card">
+          <h5><i class="fas fa-file-invoice-dollar me-2"></i>Charges & Fees</h5>
+          <ul>
+            <li>Processing fees are charged directly by banks or NBFCs.</li>
+            <li>GST applies as per government norms.</li>
+            <li>Prepayment charges depend on lender policy.</li>
+          </ul>
+          <p class="note highlight">
+            <strong>No hidden costs or brokerage fees</strong> from our side.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="#contact" class="btn btn-outline" style="border:1px solid #0a1f44;background:#0a1f44;color:#fff;">
+        Compare Business Loan Rates
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Banks / Partners Section -->
+<section id="partners" class="section-gap bg-light reveal">
+  <div class="container text-center">
+    <h2 class="mb-3 reveal" style="color: #0a1f44;">Our Channel Partners</h2>
+    <h4><i>Partnered with India’s Most Trusted Financial Institutions</i></h4>
+    <div class="section-underline"></div>
+    <div class="slick-partners reveal">
+      <div><img src="/images/axis.png" alt="Axis" class="img-fluid" style="max-height:80px;"></div>
+      <div><img src="/images/bandhan1.png" alt="Bandhan" class="img-fluid" style="max-height:80px;"></div>
+      <div><img src="/images/hdfc.png" alt="HDFC" class="img-fluid" style="max-height:80px;"></div>
+      <div><img src="/images/icici.png" alt="ICICI" class="img-fluid" style="max-height:80px;"></div>
+      <div><img src="/images/kotak.png" alt="Kotak" class="img-fluid" style="max-height:80px;"></div>
+      <div><img src="/images/pnb.png" alt="PNB" class="img-fluid" style="max-height:80px;"></div>
+      <div><img src="/images/yes.png" alt="YES" class="img-fluid" style="max-height:80px;"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-gap eligibility-docs reveal">
+  <div class="container">
+    
+    <h2 class="text-center mb-3">Business Loan Eligibility & Documentation</h2>
+    <p class="text-center mb-2">
+      <i>Simple, transparent criteria guided by Albatross business loan experts</i>
+    </p>
+    <div class="section-underline"></div>
+    
+    <!-- Toggle Buttons -->
+    <div class="toggle-wrapper">
+      <button class="toggle-btn active" data-target="eligibility">
+        Eligibility
+      </button>
+      <button class="toggle-btn" data-target="documentation">
+        Documentation
+      </button>
+    </div>
+
+    <!-- Content Box -->
+    <div class="toggle-content">
+
+      <!-- Eligibility -->
+      <div class="content-box show fade-in" id="eligibility">
+        <ul class="info-list">
+            <li>
+              <strong>Applicant Type:</strong>
+              Small business owners, proprietors, partnerships, and private limited companies
+            </li>
+            <li>
+              <strong>Age Requirement:</strong>
+              21 – 65 years (loan tenure aligned with business and owner’s age)
+            </li>
+            <li>
+              <strong>Business Vintage:</strong>
+              Minimum 2 years of operational history preferred
+            </li>
+            <li>
+              <strong>Financial Stability:</strong>
+              Positive cash flow, consistent revenue, and healthy business records
+            </li>
+            <li>
+              <strong>Credit Profile:</strong>
+              Good CIBIL / business credit score recommended for better interest rates
+            </li>
+            <li>
+              <strong>Loan Purpose:</strong>
+              Working capital, business expansion, machinery purchase, inventory, or debt consolidation
+            </li>
+        </ul>
+      </div>
+
+      <!-- Documentation -->
+      <div class="content-box" id="documentation">
+        <ul class="info-list">
+          <li>Proof of Identity of business owner(s) (Aadhaar / PAN)</li>
+          <li>Business Proof (Registration Certificate, GST Registration, or MSME Certificate)</li>
+          <li>Financial Statements (Profit & Loss, Balance Sheet for last 2 years)</li>
+          <li>Bank Statements (6–12 months)</li>
+          <li>Income Tax Returns (ITR) for last 2 years</li>
+          <li>Collateral documents (if required by lender)</li>
+        </ul>
+
+        <p class="note">
+          Our business loan advisors will guide you to organize all required documents for a faster and smoother approval.
+        </p>
+
+        <a href="#contact" class="btn btn-outline" style="border: 1px solid #0a1f44; background-color:#0a1f44; color: white;">
+          Speak to an Advisor
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section-gap loan-process reveal">
+  <div class="container">
+    <h2 class="section-title">Business Loan Application Process</h2>
+    <p class="section-subtitle mb-2">
+      <i>A clear, step-by-step journey from application to fund disbursement.</i>
+    </p>
+    <div class="section-underline"></div>
+
+    <div class="timeline-wrapper">
+      <div class="timeline-line">
+        <span class="timeline-progress"></span>
+      </div>
+
+      <div class="timeline-steps">
+
+        <!-- Step 1 -->
+        <div class="timeline-step">
+          <div class="step-circle">01</div>
+          <h6>Submit Online Application</h6>
+          <p>Provide basic business and owner details, loan amount, and tenure requirements.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="timeline-step">
+          <div class="step-circle">02</div>
+          <h6>Upload Business Documents</h6>
+          <p>Submit business registration, financial statements, bank statements, and identity proofs.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="timeline-step">
+          <div class="step-circle">03</div>
+          <h6>Credit & Financial Evaluation</h6>
+          <p>Lender reviews business credit score, cash flow, revenue consistency, and loan eligibility.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="timeline-step">
+          <div class="step-circle">04</div>
+          <h6>Loan Approval & Sanction</h6>
+          <p>Receive the sanction letter with loan amount, tenure, interest rate, and repayment terms.</p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="timeline-step">
+          <div class="step-circle">05</div>
+          <h6>Disbursement</h6>
+          <p>Funds credited to the business account for operational or expansion needs, usually within 2–7 business days.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Business Loan Eligibility / FAQ Section -->
+<section class="section-gap faq reveal">
+  <div class="container">
+    <h2 class="text-center mb-4">Business Loan Eligibility & FAQs</h2>
+    <div class="accordion" id="faqAccordion">
+
+      <!-- FAQ 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+            Who is eligible for a Business Loan?
+          </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Businesses registered for at least 1–2 years with consistent revenue and a healthy credit history are eligible. Both proprietorships and companies can apply.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+            What documents are required?
+          </button>
+        </h2>
+        <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Business registration proof (GST, MSME, or company registration), financial statements, bank statements, identity and address proofs of the business owner, and any other supporting documents requested by the lender.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+            How long does approval take?
+          </button>
+        </h2>
+        <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Online pre-assessment can be instant. Final approval and fund disbursement usually take 2–7 business days, depending on document verification and credit evaluation.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq4">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+            What is the maximum loan amount I can apply for?
+          </button>
+        </h2>
+        <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Most banks and NBFCs provide business loans ranging from ₹1 lakh to ₹5 crore, depending on business turnover, creditworthiness, and existing liabilities.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq5">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+            Can I prepay or foreclose my business loan?
+          </button>
+        </h2>
+        <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, most lenders allow prepayment or foreclosure. Charges, if any, depend on the lender’s policy and type of loan.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- CTA Section -->
+<section class="cta-section section-gap reveal">
+  <div class="container">
+    <h2 style="color: #FFDF00;">Ready to Apply for Your Business Loan?</h2>
+    <p>Get a fast, transparent, and hassle-free business loan with The Albatross Associates.</p>
+    <a href="#contact" class="btn btn-light btn-lg">Apply Now</a>
+    <a href="#personal-loan-calculators" class="btn btn-outline-light btn-lg">Check EMI</a>
+  </div>
+</section>
+
+<!-- Contact Section --> 
+<section id="contact" class="section-gap bg-light reveal">
+  <div class="container">
+    <h2 class="text-center mb-3" style="color: #0a1f44;">Contact Us</h2>
+    <h5 style="text-align: center;"><i>Connect with Trusted Financial Advisors</i></h5>
+    <div class="section-underline"></div>
+    <div class="row g-4 reveal">
+      
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <form id="contactForm">
+          
+          <!-- Name -->
+          <div class="mb-3">
+            <input type="text" class="form-control contact-input" name="name" placeholder="Name" required>
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3">
+            <input type="email" class="form-control contact-input" name="email" placeholder="Email" required>
+          </div>
+
+          <!-- Contact Number -->
+          <div class="mb-3">
+            <input type="tel" class="form-control contact-input" name="phone" placeholder="Contact Number" required pattern="[0-9]{10}" title="Enter 10-digit number">
+          </div>
+
+          <!-- Services Dropdown -->
+          <div class="mb-3">
+            <select class="form-select contact-input" name="service" required>
+              <option value="" disabled selected>Select Service</option>
+              <option value="Home Loan">Home Loan</option>
+              <option value="Business Loan">Business Loan</option>
+              <option value="Personal Loan">Personal Loan</option>
+              <option value="Mortgage">Mortgage services</option>
+              <option value="Insurance">Insurance</option>
+              <option value="Investment">Investment Planning</option>
+            </select>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Request a Callback</button>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- Map & Contact Info -->
+      <div class="col-md-6 reveal">
+        <iframe
+          src="https://www.google.com/maps?q=27/300,%201st%20Floor,%20SS%20Complex,%207th%20St%20Extension,%20100%20Feet%20Road,%20Coimbatore,%20Tamil%20Nadu%20641012,%20India&z=16&output=embed"
+          width="100%"
+          height="400"
+          style="border:0; border-radius:12px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p class="mt-3"><i class="fas fa-map-marker-alt me-2"></i>27/300, 1st Floor, SS Complex, 7th St Extension, 100 feet Road, Coimbatore, Tamil Nadu 641012, India</p>
+        <p><i class="fas fa-phone me-2"></i>+91  422 314 6393</p>
+        <p><i class="fas fa-mobile me-2"></i>+91  8110000313</p>
+        <p><i class="fas fa-envelope me-2"></i>happybanking@thealbatrossassociates.com</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="bank-footer reveal">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Brand -->
+      <div class="col-md-4">
+        <img src="/images/AlbatrossLogoCopy.PNG" alt="The Albatross Associates" class="footer-logo">
+        <h2 style="color: white;">THE ALBATROSS ASSOCIATES</h2>
+        <p class="footer-tagline">
+          Your trusted partner for transparent, reliable<br>
+          and customer-first financial solutions.
+        </p>
+
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://api.whatsapp.com/message/4DWSESFRGLDUC1?autoload=1&app_absent=0" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/thealbatross_associates/?utm_source=qr&igsh=MTNjbDg1MWNscTVjNg%3D%3D#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2">
+        <h6 class="footer-title">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/index.html#loans">Loans</a></li>
+          <li><a href="/index.html#insurance">Insurance</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-3">
+        <h6 class="footer-title">Our Services</h6>
+        <ul class="footer-links">
+          <li><a href="/homeLoan/homeLoan.html">Home Loans</a></li>
+          <li><a href="/personalLoan/personalLoan.html">Personal Loans</a></li>
+          <li><a href="./businessLoan.html">Business Loans</a></li>
+          <li><a href="/mortgage/mortgage.html">Loan Against Property</a></li>
+          <li><a href="/index.html#insurance">Insurance Solutions</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact + Opening Hours -->
+      <div class="col-md-3">
+        <h6 class="footer-title">Contact Us</h6>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Coimbatore, Tamil Nadu</p>
+        <p><i class="fas fa-phone-alt me-2"></i>+91 422 314 6393</p>
+        <p><i class="fas fa-mobile-alt me-2"></i>+91 81100 00313</p>
+        <p style="font-size: 14px;"><i class="fas fa-envelope me-2"></i>happybanking@thealbatrossassociates.com</p>
+
+        <hr class="footer-divider">
+
+        <h6 class="footer-title mt-3">Opening Hours</h6>
+        <p>Please contact us for any inquiry.</p>
+        <p><strong>Monday – Saturday:</strong> 09:00 AM – 07:00 PM</p>
+        <p><strong>Sunday:</strong> Holiday</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <span>© 2025 The Albatross Associates. All Rights Reserved.</span>
+      <div class="footer-legal">
+        <a href="/privacy.html">Privacy Policy</a>
+        <span class="mx-2">|</span>
+        <a href="/term.html">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./businessLoan.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "name": "The Albatross Associates",
+  "url": "https://thealbatrossassociates.com",
+  "logo": "https://thealbatrossassociates.com/images/AlbatrossLogo.svg",
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Tamil Nadu"
+  },
+  "serviceType": "Home Loan Advisory",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "27/300, SS Complex, 100 Feet Road",
+    "addressLocality": "Coimbatore",
+    "addressRegion": "TN",
+    "postalCode": "641012",
+    "addressCountry": "IN"
+  }
+}
+</script>
+
+</body>
+</html>
